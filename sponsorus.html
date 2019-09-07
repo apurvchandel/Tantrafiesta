@@ -1,17 +1,18 @@
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
+
+    <html class="no-js">
+	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Tantrafiesta | IIIT NAGPUR</title>
+	<title>Sponsor Us | Tantrafiesta</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="tantrafiesta" />
 	<meta name="keywords" content="bootstrap, html5, css3, mobile first, responsive" />
+	<meta name="author" content="IIITN" />
+
+
+  	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -23,10 +24,9 @@
 	<meta name="twitter:card" content="" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="icon" type = "image/x-icon" href="assets/images/white_logo.png">
+	<link rel="shortcut icon" href="favicon.ico">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -38,13 +38,17 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-
-</head>
-<body>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="icon" type = "image/x-icon" href="assets/images/white_logo.png">
+	</head>
+	<body>
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
@@ -52,10 +56,10 @@
 			<h1 id="fh5co-logo"><a href="index.html">IIITN</a></h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="index.html">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="events.html">Events</a></li>
 					<li><a href="glimpse.html">Glimpse's</a></li>
-					<li><a href="sponsorus.html">Sponsor Us</a></li>
+					<li class="fh5co-active"><a href="sponsorship.html">Sponsor Us</a></li>
 					<li><a href="aboutus.html">About Us</a></li>
 					<li><a href="contactus.html">Contact Us</a></li>
 				</ul>
@@ -74,33 +78,27 @@
 		</aside>
 
 		<div id="fh5co-main">
-			<aside id="fh5co-hero" class="js-fullheight">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-						<li style="background-image: url(assets/images/32042.jpg);">
-							<div class="overlay"></div>
-							<div class="container-fluid">
-								<div class="row">
-									<div class="col-md-8 col-md-offset-2 text-center js-fullheight slider-text" style="margin-left: 0; width: 100%;">
-										<div id='stars'></div>
-										<div id='stars2'></div>
-										<div id='stars3'></div>
-										<div id="loading">
-											<img id="logo" src="assets/images/tf.png">
-											<img id="loading-img" src="assets/images/moon.svg">
-										</div>
-										<footer>
-											<div class="main">
-												<div id="countdown"></div>
-
-											</div>
-										</footer>
-									</div>
-								</div>
-							</div>
-				 </div>
-			</aside>
-
+			<div class="fh5co-narrow-content">
+				<div class="row row-bottom-padded-md">
+					 <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<img class="img-responsive" src="images/img_bg_2.jpg" alt="Tantrafiesta">
+					</div> <br>
+					<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+						<h2 class="fh5co-heading">WHY INVEST US</h2>
+						<p> Increase your visibility among diversified network of educators, professionals,
+							businesses and students, grow your business and cultivate new leads by becoming a
+							sponsor or exhibitor at TantraFeista‘19.</p>
+						<p>TantraFiesta’19 is the hub for networking , collaboration and engagement
+							providing you with unparalleled opportunity to share your expertise with more than
+							2,000 attendees, stakeholders and visitors from around the world.</p>
+						<p>● One to one networking.</p>
+						<p>● Large business opportunity.</p>
+						<p>● Exhibition stand - give detailed insight into your solutions face to face and
+							capture visitors details.</p>
+						<p>● Other features and benefits offered as a part of packages.</p>
+					</div>
+				</div>
+			</div>
 
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
@@ -116,7 +114,6 @@
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
-	<script  src="assets/js/script.js"></script>
 
-</body>
+	</body>
 </html>
