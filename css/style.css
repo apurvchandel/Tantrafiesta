@@ -359,6 +359,7 @@ figure figcaption {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
     width: 30%;
@@ -467,6 +468,7 @@ figure figcaption {
   -o-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 #fh5co-aside .fh5co-footer {
   position: absolute;
   bottom: 40px;
