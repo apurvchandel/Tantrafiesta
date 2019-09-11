@@ -83,11 +83,10 @@ html
 	-webkit-text-fill-color: transparent;
 }
 .main {
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-  width: 850px;
-  height: 480px;
+  position: absolute;
+	bottom: 0;
+	
+
 }
 
 /* h1 {

@@ -95,14 +95,6 @@ body {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-.main {
-  position: relative;
-  margin: auto;
-  overflow: hidden;
-  width: 850px;
-  height: 480px;
-}
-
 h1 {
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -1336,10 +1328,10 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   text-decoration: none;
 }
 .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
-  background: #000;
+  background: #fff;
 }
 .fh5co-nav-toggle.dark.active i::before, .fh5co-nav-toggle.dark.active i::after {
-  background: #000;
+  background: #fff;
 }
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
