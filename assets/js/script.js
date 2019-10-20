@@ -1,5 +1,5 @@
 const year = new Date().getFullYear();
-const choosenDate = new Date(year, 8, 27).getTime();
+const choosenDate = new Date(year, 8, 28).getTime();
 
 let countdown = setInterval(function() {
 
@@ -25,3 +25,5 @@ let countdown = setInterval(function() {
 </div>";
 
 }, 1000);
+// when animating on fh5co-main, it is best to use requestAnimationFrame instead of setTimeout or setInterval
+// not supported in all browsers though and sometimes needs a prefix, so we need a shim

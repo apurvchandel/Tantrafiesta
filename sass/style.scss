@@ -1,7 +1,7 @@
 $font-primary: 'Roboto', Arial, sans-serif;
 
 // Overrides
-$grid-gutter-width: 40px !default; 
+$grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
@@ -53,16 +53,16 @@ $form-group-margin-bottom:       30px !default;
           border-radius: $radius;
 }
 @mixin flex() {
-	display: -webkit-box;      
-  	display: -moz-box;         
-  	display: -ms-flexbox;      
-  	display: -webkit-flex;     
-  	display: flex;             
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
 }
 @mixin flexwrap() {
 	flex-wrap: wrap;
-	-webkit-flex-wrap: wrap; 
-	-moz-flex-wrap: wrap; 
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
 }
 
 @font-face {
@@ -77,7 +77,7 @@ $form-group-margin-bottom:       30px !default;
 }
 
 @mixin icomoon() {
-	
+
 	font-family: 'icomoon';
 	speak: none;
 	font-style: normal;
@@ -89,10 +89,10 @@ $form-group-margin-bottom:       30px !default;
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	
+
 }
 
-// Import 
+// Import
 @import 'bootstrap/mixins';
 @import 'bootstrap/variables';
 
@@ -101,7 +101,7 @@ $form-group-margin-bottom:       30px !default;
 
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -127,7 +127,7 @@ body {
 	// 	background-position: center center;
 	// 	background-repeat: no-repeat;
 	// }
-	
+
 }
 a {
 	color: $brand-primary;
@@ -147,6 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $font-primary;
 	font-weight: 400;
 	margin: 0 0 30px 0;
+	margin-top: 30px;
 }
 figure {
 	margin-bottom: 2.5em;
@@ -191,7 +192,7 @@ figure {
 	position: fixed;
 	bottom: 0;
 	top: 0;
-	left: 0;	
+	left: 0;
 	overflow-y: scroll;
 	z-index: 1001;
 	@include transition(.5s);
@@ -267,7 +268,7 @@ figure {
 					&:hover {
 						text-decoration: none;
 						color: rgba(0,0,0,1);
-						
+
 						&:after {
 							visibility: visible;
 							-webkit-transform: scaleX(1);
@@ -624,7 +625,7 @@ body {
 	}
 	@media screen and(max-width: $screen-xs){
 		height: 270px;
-	}	
+	}
 	.desc{
 		display: table-cell;
 		vertical-align: middle;
@@ -804,14 +805,14 @@ body {
 
 #map {
 	width: 100%;
-	height: 700px;	
+	height: 700px;
 	@media screen and (max-width: $screen-sm) {
 		height: 200px;
 	}
 }
 
 .fh5co-more-contact {
-	background: lighten($brand-black, 98%);	
+	background: lighten($brand-black, 98%);
 }
 
 
@@ -1143,7 +1144,7 @@ body {
   		opacity: 1;
 		visibility: visible;
   	}
-  
+
 }
 
 
@@ -1164,13 +1165,13 @@ body {
 	padding-bottom: 4em;
 	@media screen and (max-width: $screen-sm ) {
 		padding-bottom: 1em;
-	}	
+	}
 }
 .row-bottom-padded-sm {
 	padding-bottom: 1em;
 	@media screen and (max-width: $screen-sm ) {
 		padding-bottom: 1em;
-	}	
+	}
 }
 .col-padding{
 	padding: 10px !important;
@@ -1180,5 +1181,6 @@ body {
 .animate-box {
 	.js & {
 		opacity: 0;
+		margin-bottom:50px;
 	}
 }

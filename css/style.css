@@ -18,6 +18,13 @@ body {
   line-height: 1.6;
   color: white;
   background: whitesmoke;
+  height: auto;
+  position: cover;
+}
+@media screen and (min-width: 990px){
+   #fh5co-main{
+    height: 100vh;
+  }
 }
 @media screen and (max-width: 992px) {
   body {
@@ -116,10 +123,6 @@ h1 sup {
 	}
 }
 
-body{
-	height: 100%;
-}
-
 #loading{
 	margin-top: 5%;
 	/* display: block; */
@@ -161,7 +164,7 @@ body{
 		position: absolute;
 		left: 0;
 		right: 0;
-		top: 15px;
+		top: 20px;
 		margin: auto;
 		width: 55%;
 	}
@@ -169,13 +172,20 @@ body{
 	{
 		width: 60%;
 	}
-	#container{
-		margin-top: 15%;
-	}
+
 	li span {
 		display: block;
 		font-size: 1.5rem;
 	}
+  #countdown{
+		position: fixed;
+
+	}
+.container-fluid
+  {
+    height: 640px
+  }
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -295,6 +305,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   margin: 0 0 30px 0;
+  margin-top:30px;
 }
 
 figure {
@@ -333,7 +344,6 @@ figure figcaption {
 
 #fh5co-page {
   width: 100%;
-  overflow: hidden;
   position: relative;
 }
 
@@ -350,6 +360,9 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-aside {
@@ -391,6 +404,7 @@ figure figcaption {
   margin: 0;
   padding: 0;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-aside #fh5co-main-menu ul {
     margin: 0 0 2em 0;
@@ -608,7 +622,7 @@ figure figcaption {
 }
 #fh5co-hero .flexslider .slides {
   position: relative;
-  overflow: hidden;
+  overflow: hidden
 }
 #fh5co-hero .flexslider .slides .overlay {
   position: absolute;
@@ -1027,7 +1041,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-social {
   padding: 0;
   margin: 0;
-  text-align: center;
+  text-align: left;
 }
 .fh5co-social li {
   padding: 0;
@@ -1037,10 +1051,11 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   display: inline-block;
   zoom: 1;
   *display: inline;
+
 }
 .fh5co-social li a {
   font-size: 22px;
-  color: #000;
+  color: #fff;
   padding: 10px;
   display: -moz-inline-stack;
   display: inline-block;
@@ -1050,19 +1065,19 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   border-radius: 7px;
-}
+  }
 @media screen and (max-width: 768px) {
   .fh5co-social li a {
     padding: 10px 8px;
   }
 }
 .fh5co-social li a:hover {
-  color: #228896;
+  color: blue;
 }
 .fh5co-social li a:hover, .fh5co-social li a:active, .fh5co-social li a:focus {
   outline: none;
   text-decoration: none;
-  color: #228896;
+  color: blue;
 }
 
 #map {
@@ -1094,7 +1109,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   height: 100px;
   display: table;
   text-align: center;
-  background: rgba(0, 0, 0, 0.05);
+  background: #000;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1103,7 +1118,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .fh5co-feature .fh5co-icon i {
   display: table-cell;
   vertical-align: middle;
-  color: #228896;
+  color: #fff;
   font-size: 40px;
   height: 100px;
 }
@@ -1142,7 +1157,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 .fh5co-heading {
-  font-size: 18px;
+  font-size: 30px;
   margin-bottom: 2em;
   font-weight: 500;
 
@@ -1474,6 +1489,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 
 .js .animate-box {
   opacity: 0;
+  margin-bottom: 50px;
 }
 #rotateimg270 {
   -webkit-transform:rotate(270deg);
